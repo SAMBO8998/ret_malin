@@ -1,0 +1,24 @@
+.hero-bgg {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), 
+              url('./img/photo_2026-07-08_19-07-36.jpg') no-repeat center center / cover !important;
+}
+
+
+@keyframes slide {
+    0%, 30% {
+        transform: translateX(0);
+    }
+
+    35%, 65% {
+        transform: translateX(-33.333%);
+    }
+
+    70%, 100% {
+        transform: translateX(-66.666%);
+    }
+}
+
+.animate-slide {
+    animation: slide 9s infinite;
+}
